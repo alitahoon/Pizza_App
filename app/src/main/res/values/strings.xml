@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pizza</string>
+    <string name="first_index_main">Delivery address</string>
+    <string name="mid_index_main">Customized Pizza</string>
+    <string name="first_index_para">Start your order by typing your address.</string>
+    <string name="mid_index_para">Customize your pizza through pizza customize tool.</string>
+    <string name="third_index_main">Your Pizza is coming</string>
+    <string name="third_index_para">submit your order and wait for your pizza.</string>
+</resources>

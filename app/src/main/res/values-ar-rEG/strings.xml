@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pizza</string>
+    <string name="first_index_main">عنوان التوصيل</string>
+    <string name="mid_index_main">اصنع بيتزتك بنفسك</string>
+    <string name="first_index_para">اكتب عنوانك وابدا الطلب فورا</string>
+    <string name="mid_index_para">اصنع بيتزتك باستخدام اداه الصنع المخصصه</string>
+    <string name="third_index_main">بيتزتك ع النااار ي زعييم</string>
+    <string name="third_index_para">"دوس يلا مستني اييه "</string>
+</resources>
