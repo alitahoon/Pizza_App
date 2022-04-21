@@ -14,15 +14,13 @@ public class login_page extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_page);
-        Intent i=new Intent(getApplicationContext(),MainActivity.class);
-        startActivity(i);
         btn_register=findViewById(R.id.btn_register);
         btn_register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i=new Intent(getApplicationContext(),register_page.class);
                 startActivity(i);
-                overridePendingTransition(R.anim.slide_in_right,R.anim.slide_in_left);
+                overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
             }
         });
     }
@@ -30,6 +28,6 @@ public class login_page extends AppCompatActivity {
     @Override
     public void finish() {
         super.finish();
-        overridePendingTransition(R.anim.slide_in_left,R.anim.slide_in_right);
+        overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
     }
 }

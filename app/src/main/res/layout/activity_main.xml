@@ -9,19 +9,6 @@
     tools:context=".MainActivity">
 
 
-    <Button
-        android:id="@+id/btn_get_started"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginRight="80dp"
-        android:background="@color/primary_color"
-        android:text="Get started"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-        android:visibility="gone" />
-
     <ImageView
         android:id="@+id/main_img"
         android:layout_width="300dp"
@@ -77,6 +64,7 @@
             android:layout_width="15dp"
             android:layout_height="15dp"
             app:srcCompat="@drawable/index_off" />
+
     </LinearLayout>
 
     <ImageView
@@ -84,5 +72,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@mipmap/next_foreground" />
+
+    <Button
+        android:id="@+id/btn_get_started"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="80dp"
+        android:background="@color/primery_off"
+        android:text="Get started"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:visibility="gone" />
 
 </LinearLayout>

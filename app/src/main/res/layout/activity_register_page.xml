@@ -47,7 +47,7 @@
                 app:srcCompat="@drawable/ic_camera" />
         </RelativeLayout>
 
-        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+        <EditText
             android:id="@+id/editTextTextPersonName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -67,11 +67,9 @@
             android:padding="10dp"
             android:textColor="#FFFFFF"
             android:textColorHint="@color/primary_color"
-            android:textSize="20sp">
+            android:textSize="20sp"/>
 
-        </com.google.android.material.textfield.MaterialAutoCompleteTextView>
-
-        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+        <EditText
             android:id="@+id/editTextTextPassword2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -93,7 +91,7 @@
             android:textColorHint="@color/primary_color"
             android:textSize="20sp" />
 
-        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+        <EditText
             android:id="@+id/editTextTextPersonName3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -115,7 +113,7 @@
             android:textColorHint="@color/primary_color"
             android:textSize="20sp" />
 
-        <com.google.android.material.textfield.MaterialAutoCompleteTextView
+        <EditText
             android:id="@+id/editTextTextPersonName4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -137,7 +135,7 @@
             android:textColorHint="@color/primary_color"
             android:textSize="20sp" />
 
-        <com.google.android.material.button.MaterialButton
+        <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -151,6 +149,8 @@
             android:text="Sign Up"
             android:textColor="#FFFFFF"
             android:textSize="22sp"
-            android:textStyle="bold"></com.google.android.material.button.MaterialButton>
+            android:textStyle="bold"/>
+
+
     </LinearLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

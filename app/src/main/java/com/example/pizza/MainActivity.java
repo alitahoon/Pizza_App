@@ -11,6 +11,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     ImageView main_img,first_index,mid_index,third_index,img_next;
@@ -43,25 +44,23 @@ public class MainActivity extends AppCompatActivity {
                     c++;
 
                    }else if(c==1){
-                    main_img.setImageResource(R.mipmap.shopping_foreground);
+                    main_img.setImageResource(R.mipmap.shopping_h);
                     first_index.setImageResource(R.drawable.index_off);
                     mid_index.setImageResource(R.drawable.index_off);
                     third_index.setImageResource(R.drawable.index);                    title_txt.setText(getResources().getString(R.string.third_index_main));
                     para_txt.setText(getResources().getString(R.string.third_index_para));
                     img_next.setVisibility(View.GONE);
                     btn_get_started.setVisibility(View.VISIBLE);
-                    Intent i=new Intent(getApplicationContext(),login_page.class);
-                    startActivity(i);
-                    overridePendingTransition(R.anim.slide_in_right,R.anim.slide_in_left);
+
                 }
             }
         });
         btn_get_started.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(getApplicationContext(),login_page.class);
-                startActivity(i);
-                overridePendingTransition(R.anim.slide_in_right,R.anim.slide_in_left);
+                Intent loginActivity=new Intent(MainActivity.this,login_page.class);
+                MainActivity.this.startActivity(loginActivity);
+                overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
             }
         });
     }
