@@ -48,14 +48,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:layout_marginStart="0"
-            android:layout_marginLeft="0"
-            android:layout_marginTop="0"
-            android:layout_marginEnd="0"
-            android:layout_marginRight="0"
-            android:layout_marginBottom="0"
-            android:text="Forgot?"
-            android:textColor="@color/btn_background"
+            android:text="Forgot ?"
+            android:textColor="@color/primary_color"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -80,21 +74,44 @@
         android:layout_marginEnd="70dp"
         android:layout_marginRight="70dp"
         android:layout_marginBottom="10dp"
-        android:background="@color/primary_color"
+        android:background="@color/primery_off"
         android:text="Login"
         android:textAllCaps="false"
-        android:textColor="@color/white"
+        android:textColor="#FFFFFF"
         android:textSize="22sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
 
-    <TextView
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="Or,Login With..."
-        android:textColor="@color/white"
-        android:textSize="15sp"
-        android:textStyle="bold" />
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="60dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/primary_color" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Or,Login With..."
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="60dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="@color/primary_color" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -146,13 +163,13 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/btn_register"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
             android:layout_marginLeft="5dp"
             android:text=" Register"
-            android:textColor="@color/btn_background"
+            android:textColor="@color/primary_color"
             android:textSize="18sp"
             android:textStyle="bold" />
     </LinearLayout>

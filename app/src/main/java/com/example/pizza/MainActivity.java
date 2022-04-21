@@ -13,7 +13,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    ImageView main_img,first_index,mid_index,third_index,img_next,background_img;
+    ImageView main_img,first_index,mid_index,third_index,img_next;
     TextView title_txt,para_txt;
     Button btn_get_started;
     Animation anim;
@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
         mid_index=findViewById(R.id.mid_index);
         third_index=findViewById(R.id.third_index);
         img_next=findViewById(R.id.img_next);
-        background_img=findViewById(R.id.background_img);
         btn_get_started=findViewById(R.id.btn_get_started);
         anim= AnimationUtils.loadAnimation(this,R.anim.beganim);
         img_next.setOnClickListener(new View.OnClickListener() {
@@ -55,6 +54,14 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(i);
                     overridePendingTransition(R.anim.slide_in_right,R.anim.slide_in_left);
                 }
+            }
+        });
+        btn_get_started.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(getApplicationContext(),login_page.class);
+                startActivity(i);
+                overridePendingTransition(R.anim.slide_in_right,R.anim.slide_in_left);
             }
         });
     }

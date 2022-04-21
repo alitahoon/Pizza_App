@@ -4,13 +4,23 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Ali Tahoon/AndroidStudioProjects/Pizza/app/src/main/res/drawable/background_reduis.xml" value="0.277" />
+        <entry key="..\:/Users/Ali Tahoon/AndroidStudioProjects/Pizza/app/src/main/res/drawable/choose_img.xml" value="0.277" />
+        <entry key="..\:/Users/Ali Tahoon/AndroidStudioProjects/Pizza/app/src/main/res/drawable/h_line.xml" value="0.277" />
+        <entry key="..\:/Users/Ali Tahoon/AndroidStudioProjects/Pizza/app/src/main/res/drawable/ic_camera.xml" value="0.277" />
+        <entry key="..\:/Users/Ali Tahoon/AndroidStudioProjects/Pizza/app/src/main/res/drawable/ic_email.xml" value="0.277" />
+        <entry key="..\:/Users/Ali Tahoon/AndroidStudioProjects/Pizza/app/src/main/res/drawable/ic_email_icone.xml" value="0.277" />
+        <entry key="..\:/Users/Ali Tahoon/AndroidStudioProjects/Pizza/app/src/main/res/drawable/ic_facebook.xml" value="0.1745" />
+        <entry key="..\:/Users/Ali Tahoon/AndroidStudioProjects/Pizza/app/src/main/res/drawable/ic_location.xml" value="0.277" />
+        <entry key="..\:/Users/Ali Tahoon/AndroidStudioProjects/Pizza/app/src/main/res/drawable/ic_name.xml" value="0.277" />
+        <entry key="..\:/Users/Ali Tahoon/AndroidStudioProjects/Pizza/app/src/main/res/drawable/ic_password.xml" value="0.277" />
         <entry key="..\:/Users/Ali Tahoon/AndroidStudioProjects/Pizza/app/src/main/res/drawable/ic_twitter.xml" value="0.277" />
         <entry key="..\:/Users/Ali Tahoon/AndroidStudioProjects/Pizza/app/src/main/res/drawable/icons_border.xml" value="0.277" />
         <entry key="..\:/Users/Ali Tahoon/AndroidStudioProjects/Pizza/app/src/main/res/drawable/index.xml" value="0.277" />
         <entry key="..\:/Users/Ali Tahoon/AndroidStudioProjects/Pizza/app/src/main/res/drawable/index_off.xml" value="0.277" />
+        <entry key="..\:/Users/Ali Tahoon/AndroidStudioProjects/Pizza/app/src/main/res/drawable/text_view_style.xml" value="0.277" />
         <entry key="..\:/Users/Ali Tahoon/AndroidStudioProjects/Pizza/app/src/main/res/layout/activity_login_page.xml" value="0.33" />
         <entry key="..\:/Users/Ali Tahoon/AndroidStudioProjects/Pizza/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Users/Ali Tahoon/AndroidStudioProjects/Pizza/app/src/main/res/layout/activity_register_page.xml" value="0.2758152173913043" />
+        <entry key="..\:/Users/Ali Tahoon/AndroidStudioProjects/Pizza/app/src/main/res/layout/activity_register_page.xml" value="0.33" />
       </map>
     </option>
   </component>
